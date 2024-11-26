@@ -188,10 +188,8 @@ div.Patriotism-Image{
 
 body{
     background-image: url("../images/background-image-cardinal-virtue.jpg");
-    width: 98vw;
     background-size: cover;
     padding: 5px;
     background-position: center;
-    max-height: 130%;
     background-repeat: no-repeat;
 }
