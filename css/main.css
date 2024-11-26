@@ -190,11 +190,6 @@ h1{
     width: 250px;
 }
 
-html, body{
-    margin: 0;
-    padding: 0;
-}
-
 img.demolaySlides{
     max-width: 140%;
     height: auto;
@@ -209,4 +204,217 @@ img.demolaySlides{
 .slideshow-section{
     background-color: black;
     padding: 50px;
+}
+
+@media only screen and (max-width: 470px){
+    #introduction-card-paragraph{
+        margin: 3.5%;
+        padding: 10px;
+        float: left;
+        font-size: 15px;
+        background-color: white;
+        width: 650px;
+        opacity: 75%;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 470px){
+    #introduction-card-paragraph{
+        margin: 3.5%;
+        padding: 5px;
+        float: left;
+        font-size: 15px;
+        background-color: white;
+        width: 650px;
+        opacity: 75%;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 470px){
+    #introduction-card-paragraph{
+        margin: 3.5%;
+        padding: 5px;
+        float: left;
+        font-size: 15px;
+        background-color: white;
+        width: 650px;
+        opacity: 75%;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 445px){
+    #DeMolayMember1{
+        width: 160px;
+    }
+
+    #DeMolayMember2{
+        width: 160px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    #DeMolayMember1{
+        width: 120px;
+    }
+
+    #DeMolayMember2{
+        width: 120px;
+    }
+
+    #introduction-card-paragraph{
+        margin: 3.5%;
+        padding: 5px;
+        float: left;
+        font-size: 12px;
+        background-color: white;
+        width: 650px;
+        opacity: 75%;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 746px){
+    .frank-s-land-photo{
+        margin-top: 80px;
+        margin-left: 13%;
+    }
+}
+@media only screen and (max-width: 476px){
+    #introduction-card-paragraph{
+        margin: 3.5%;
+        padding: 5px;
+        float: left;
+        font-size: 12px;
+        background-color: white;
+        width: 650px;
+        opacity: 75%;
+        max-width: 100%;
+    }
+
+    body{
+        max-width: 110%;
+        margin: auto;
+        width: 110%;
+    }
+}
+
+@media only screen and (max-width: 467px){
+    #introduction-card-paragraph{
+        margin: 3.5%;
+        padding: 5px;
+        float: left;
+        font-size: 12px;
+        background-color: white;
+        width: 650px;
+        opacity: 75%;
+        max-width: 100%;
+    }
+
+    body{
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 403px) {
+    .freemasonry-paragraph{
+
+    }
+}
+
+@media only screen and (max-width: 462px){
+
+    body{
+        max-width: 125%;
+        margin: auto;
+        width: 125%;
+    }
+
+   #introduction-card-paragraph{
+       padding: 5px;
+       float: left;
+       font-size: 12px;
+       background-color: white;
+       width: 450px;
+       opacity: 75%;
+       max-width: 100%;
+   }
+}
+
+@media only screen and (max-width: 325px) {
+    body{
+        width: 110%;
+        max-width: 110%;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .frank-s-land-card{
+        background-color: yellow;
+        max-width: 53%;
+        margin-left: 14.5%;
+        margin-top: 11%;
+    }
+}
+
+@media only screen and (max-width: 617px){
+    .frank-s-land-card{
+        background-color: yellow;
+        max-width: 80%;
+        margin-left: 14.5%;
+        margin-top: 11%;
+    }
+}
+
+@media only screen and (max-width: 440px){
+    body{
+        width: 140%;
+        max-width: 140%;
+    }
+}
+
+
+@media only screen and (max-width: 404px){
+    .freemasonry-paragraph{
+        width: 42%;
+        font-size: 6px;
+        padding: 10px;
+        background-color: aliceblue;
+    }
+
+    .shriners-paragraph{
+        padding: 10px;
+        width: 60%;
+        font-size: 7.2px;
+        background-color: aliceblue;
+    }
+
+    .scottish-rite-paragraph{
+        font-size: 7px;
+        padding: 6px;
+        width: 85%;
+        background-color: aliceblue;
+        float: left;
+        position: relative;
+
+    }
+
+    .scottish-rite-div{
+        position: absolute;
+        margin-left: 80%;
+        float: right;
+        opacity: 85%;
+    }
+}
+
+@media only screen and (max-width: 395px) {
+
+    .demolaySlides {
+        max-width: 180%;
+        height: auto;
+        display: block;
+        width: 800px;
+    }
 }
