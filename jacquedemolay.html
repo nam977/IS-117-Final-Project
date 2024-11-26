@@ -1,0 +1,287 @@
+<!--
+DEVELOPER Nathaniel Lewis Arevalo Macasaet, IS-117-003, Fall 2024
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap Page</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/jacquedemolay.css" rel="stylesheet">
+
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="#"><img src="images/NJDemolayLogo.png" alt="New Jersey DeMolay Logo" width="80" height="80"> </a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home Page</a>
+                    </li>
+
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                           data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            History
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="cardinalvirtues.html"> The 7 Cardinal Virtues</a>
+                            <a class="dropdown-item" href="famousdemolays.html"> Famous DeMolays</a>
+                            <a class="dropdown-item" href="jacquedemolay.html">The Legend of Jacque DeMolay </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <table>
+            <tr>
+                <th></th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="JacqueDeMolay">
+                        <img src="images/jacque-demolay.jpg" alt="Jacque DeMolay" class="JacqueDeMolay" width="1515px" height="1000px" style="block-size:fit-content">
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+            <!-- Brand -->
+            <!--a class="navbar-brand" href="#"><img src="images/NJDemolayLogo.png" alt="New Jersey DeMolay Logo" width="80" height="80"> </a-->
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" >
+                <ul class="navbar-nav">
+                    <!-- Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#intro-section">Introduction</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#frank-s-land-section">Founder</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sponsors-section">Sponsors</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#slideshow">Slide Show</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <main>
+
+        <section id="early-life" class="thirteenthCentury">
+            <h1> Who is Jacque DeMolay? The revered and legendary martyr of DeMolay International</h1>
+
+            <div class="early-life-paragraph">
+                <h2> Early Life</h2>
+
+                <p>
+                    Jacques de Molay, born around 1243 in the Free County of Burgundy (present-day France),
+                    rose from modest origins to join the Knights Templar in his youth. Little is documented
+                    about his early years, but it is believed he hailed from a minor noble family. Drawn to
+                    the Templars' mission of protecting Christian pilgrims and defending the Holy Land, de
+                    Molay entered the order, likely as a teenager, and dedicated himself to the rigorous
+                    discipline and martial duties of the Templar lifestyle. His training would have included
+                    religious devotion, combat skills, and adherence to the Templars' strict code of conduct.
+                </p>
+
+                <p>
+                    De Molay’s rise through the ranks was steady, driven by his loyalty and competence. By
+                    the late 13th century, he had gained recognition within the order, eventually becoming
+                    its Grand Master in 1292. His leadership marked the Templars' struggle to maintain their
+                    relevance as the Crusades waned and political tensions in Europe grew. Despite the
+                    challenges of his later years, de Molay's early commitment to the Templar cause laid the
+                    foundation for his role as the order's last and most iconic leader.
+                </p>
+            </div>
+        </section>
+
+        <section id="grand-master" class="demolayInKnightArmor">
+            <div class="grand-master-section">
+                <h2> Military Service as Grand Master</h2>
+
+                <p>
+                    Jacques de Molay’s tenure as Grand Master of the Knights Templar, beginning in 1292, was
+                    marked by his efforts to sustain the order during a period of waning crusades and shifting
+                    political landscapes. After the fall of Acre in 1291 and the loss of Christian territories
+                    in the Holy Land, de Molay focused on reorganizing the Templars’ resources and strengthening
+                    their presence in Cyprus, which served as a strategic base for future crusading efforts. He
+                    traveled extensively across Europe, securing financial and political support from monarchs
+                    and advocating for a new crusade to reclaim Jerusalem. Despite diminishing enthusiasm for
+                    such efforts, de Molay remained dedicated to revitalizing the Templar mission.
+                </p>
+
+                <p>
+                    Under his leadership, the Templars faced increasing scrutiny and rivalry from secular
+                    authorities and other military orders, such as the Hospitallers. De Molay worked to
+                    defend the order’s reputation, addressing accusations of mismanagement and greed, which
+                    were often fueled by envy of their wealth and independence. His efforts to unite European
+                    powers for another crusade were largely unsuccessful, as internal political conflicts
+                    and a lack of unified support undermined his plans. Nonetheless, de Molay’s commitment
+                    to the Templar cause defined his service as Grand Master, even as external pressures and
+                    challenges began to threaten the order’s existence.
+                </p>
+            </div>
+        </section>
+
+        <section id="france" class="demolay-france">
+            <div class="grand-master-france">
+                <h2> Travels to France</h2>
+
+                <p>
+                    As Grand Master, de Molay frequently traveled across France to manage the Templars'
+                    extensive network of properties and resources. These journeys often involved
+                    overseeing the financial and administrative operations of the order, ensuring
+                    the maintenance of fortifications, and interacting with European monarchs and
+                    church officials to secure support for the Templars' activities.
+                </p>
+
+                <p>
+                    His travels also included participation in councils and diplomatic missions.
+                    In France, he worked closely with King Philip IV, who initially supported the
+                    Templars, and collaborated with church leaders to discuss strategies for the
+                    Crusades and defend Christendom in the Holy Land.
+                </p>
+
+                <p>
+                    Jacques de Molay’s movements across France highlight his role as both a spiritual
+                    leader and a shrewd administrator, navigating the challenges of the late medieval
+                    period while safeguarding the interests of the Knights Templar.
+                </p>
+            </div>
+        </section>
+
+        <section id="demolay-arrest" class="demolay-arrest-templar">
+            <div class="grand-master-arrest">
+                <h2> Arrest </h2>
+
+                <p>
+                    Jacques de Molay was arrested on October 13, 1307, along with numerous other
+                    Templars, by order of King Philip IV of France, who accused the order of heresy,
+                    blasphemy, and other charges. The arrests, conducted with the support of Pope
+                    Clement V, were part of a coordinated effort to dismantle the Knights Templar,
+                    driven by Philip’s desire to seize the order's wealth and eliminate its political
+                    influence. De Molay was subjected to harsh interrogations and torture, under which
+                    he and many others were coerced into making false confessions. Despite initially
+                    admitting to some accusations, de Molay later recanted, insisting on the Templars'
+                    innocence. This defiance sealed his fate, and he remained imprisoned for several
+                    years until his eventual execution. His arrest marked the beginning of the end for
+                    the Templars, as the order was officially disbanded in 1312.
+                </p>
+            </div>
+        </section>
+
+        <section id="demolay-sacrifice" class="demolay-death-and-sacrifice">
+            <div class="grand-master-sacrifice">
+                <h2> Death and Sacrifice </h2>
+
+                <p>
+                    After his arrest on October 13, 1307, Jacques de Molay, the Grand Master of the
+                    Knights Templar, was subjected to brutal torture by King Philip IV's agents in
+                    an effort to extract confessions of heresy, blasphemy, and other fabricated
+                    charges. The methods used included physical pain and psychological coercion,
+                    aimed at breaking his resolve. Under duress, de Molay initially confessed to
+                    certain allegations, including denying Christ and spitting on the cross, though
+                    these admissions were widely believed to be false and made solely to end the
+                    torment. The confessions, however, were used as justification for Philip’s
+                    campaign against the Templars and as evidence to further dismantle the powerful
+                    order.
+                </p>
+
+                <p>
+                    Years later, in 1314, Jacques de Molay was brought before a commission for
+                    sentencing. Facing a public audience, he boldly recanted his earlier confessions,
+                    declaring the Templars' innocence and denouncing the injustice of their persecution.
+                    His unwavering proclamation of truth and loyalty to his order shocked the
+                    authorities, including King Philip IV and Pope Clement V. Refusing to yield to
+                    pressure or retract his statements, de Molay’s courageous stand became a final
+                    act of defiance against the corruption and political machinations that had destroyed
+                    the Templars.
+                </p>
+
+                <p>
+                    For his recantation and defiance, Jacques de Molay was sentenced to death.
+                    On March 18, 1314, he was burned at the stake on a small island in the River
+                    Seine in Paris. According to legend, as the flames consumed him, de Molay
+                    maintained his dignity and faith, calling upon King Philip IV and Pope Clement
+                    V to meet him before God within a year to answer for their deeds. Remarkably,
+                    both Philip and Clement died within months of his execution. De Molay’s
+                    sacrifice not only cemented his legacy as a martyr for justice and loyalty but
+                    also marked the symbolic end of the Knights Templar, ensuring their story
+                    endured in history and legend.
+                </p>
+            </div>
+        </section>
+
+
+        <section id="demolay-legacy" class="demolay-legacy">
+            <div class="grand-master-legacy">
+                <h2> Legacy </h2>
+
+                <p>
+                    Jacques de Molay’s legacy endures as a symbol of loyalty, courage, and sacrifice
+                    in the face of corruption and tyranny. His unwavering defiance against false
+                    accusations and his ultimate martyrdom have inspired countless stories, legends,
+                    and debates about the true nature of the Knights Templar. De Molay's death is
+                    often seen as the end of the Templars as an institution, but his sacrifice ensured
+                    their ideals and mystique lived on, influencing everything from literature and art
+                    to modern organizations such as the Freemasons, particularly the Order of DeMolay,
+                    a youth group named in his honor. His story serves as a poignant reminder of the
+                    perils of unchecked power and the enduring strength of conviction in the pursuit
+                    of truth and justice.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer page-footer font-small ">
+        <div class="container">
+            <div class="row">
+                <span class="text-muted">&copy; Nathaniel Lewis Arevalo Macasaet, 2024|  Terms Of Use  |  Privacy Statement</span>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+</body>
+</html>

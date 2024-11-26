@@ -1,0 +1,148 @@
+/*
+DEVELOPER Nathaniel Lewis Arevalo Macasaet, IS-117-003, Fall 2024
+*/
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+
+.DeMolayLogo{
+    /*
+    block-size: 290px;
+    min-height: 100%;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+    float: left;*/
+    padding: 0;
+    width: 100%;
+    block-size: 500px;
+}
+
+h1{
+    text-align: center;
+    background-color: deepskyblue;
+    color: black;
+    height: 100px;
+    padding: 25px;
+    width: 100%;
+    margin: auto;
+    float: left;
+    opacity: 45%;
+}
+
+#about-section{
+    padding: 25px;
+    width: 480px;
+    max-width: 160%;
+    float: right;
+    margin: auto 45%;
+    background-color: lightcyan;
+    opacity: 75%;
+}
+
+.freemasonry-section{
+    float: right;
+    width: 480px;
+    padding: 25px;
+    max-width: 160%;
+    margin: auto 25%;
+    background-color: salmon;
+    opacity: 78%;
+    color: black;
+}
+
+.Mission-Statement{
+    float: right;
+    width: 480px;
+    padding: 45px;
+    max-width: 160%;
+    margin: auto 47%;
+    background-color: lightseagreen;
+    opacity: 87%;
+}
+
+.jacque-demolay{
+    float: right;
+    width: 480px;
+    padding: 25px;
+    max-width: 160%;
+    margin: auto 20%;
+    background-color: lightgreen;
+    color: black;
+    opacity: 75%;
+}
+
+div.religious-freedom{
+    width: 480px;
+    float: right;
+    padding: 20px;
+    background-color: lightblue;
+    opacity: 75%;
+}
+
+div.civil-freedom{
+    width: 480px;
+    float: right;
+    padding: 20px;
+    background-color: red;
+    opacity: 75%;
+
+}
+
+div.intellectual-freedom{
+    width: 480px;
+    float: right;
+    padding: 20px;
+    background-color: yellow;
+    opacity: 75%;
+}
+
+.fundamental-freedoms-section{
+    text-align: center;
+    float: right;
+    padding: 25px;
+    max-width: 140%;
+}
+
+@media only screen and (max-width: 1246px){
+    .fundamental-freedoms-section{
+        font-size: 20px;
+    }
+
+    div.civil-freedom{
+        width: 300px;
+    }
+
+    div.religious-freedom{
+        width: 300px;
+    }
+
+    div.intellectual-freedom{
+        width: 300px;
+    }
+}
+
+.fundamental-freedoms-header{
+    background-color: lightseagreen;
+    padding: 25px;
+    opacity: 75%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("/images/demolay-about-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    block-size: 500px;
+}

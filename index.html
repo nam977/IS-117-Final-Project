@@ -1,0 +1,265 @@
+<!--
+DEVELOPER Nathaniel Lewis Arevalo Macasaet, IS-117-003, Fall 2024
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap Page</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+<body>
+<style>
+    .demolaySlides {
+        display:none;
+    }
+</style>
+
+<div class="container-fluid">
+    <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+                <!-- Brand -->
+                <a class="navbar-brand" href="#"><img src="images/NJDemolayLogo.png" alt="New Jersey DeMolay Logo" width="80" height="80"> </a>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home Page</a>
+                        </li>
+
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                History
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="cardinalvirtues.html"> The 7 Cardinal Virtues</a>
+                                <a class="dropdown-item" href="famousdemolays.html"> Famous DeMolays</a>
+                                <a class="dropdown-item" href="jacquedemolay.html">The Legend of Jacque DeMolay </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        <div class="DeMolayLogo">
+            <img src="images/DeMolayLogo.jpg" alt="DeMolay Crown Logo" class="DeMolayLogo">
+        </div>
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+            <!-- Brand -->
+            <!--a class="navbar-brand" href="#"><img src="images/NJDemolayLogo.png" alt="New Jersey DeMolay Logo" width="80" height="80"> </a-->
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" >
+                <ul class="navbar-nav">
+                    <!-- Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#intro-section">Introduction</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#frank-s-land-section">Founder</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sponsors-section">Sponsors</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#slideshow">Slide Show</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <main>
+        <section id="intro-section">
+            <div class="introduction-card">
+                <div id="introduction-card-paragraph">
+                    <h1> Welcome to NJIT DeMolay! </h1>
+
+                    <p>
+                        New Jersey DeMolay is a vibrant youth-led organization dedicated to building
+                        leadership, character, and brotherhood among young men aged 12 to 21. As part
+                        of the international Order of DeMolay, it focuses on teaching its members essential
+                        life skills, including public speaking, teamwork, event planning, and civic responsibility,
+                        while promoting core values such as love for family, respect for all, and a commitment
+                        to excellence.
+                    <p>
+
+                    <p>
+                        Through engaging activities like community service projects, leadership workshops,
+                        and fun social events, New Jersey DeMolay creates a welcoming environment where
+                        young men can grow into confident, well-rounded individuals. Members are guided
+                        by caring adult mentors who help them navigate challenges, achieve personal goals,
+                        and prepare for future success.
+                    </p>
+
+                    <p>
+                        Whether you're looking to make lifelong friendships, develop valuable skills,
+                        or contribute to your community, New Jersey DeMolay offers an unparalleled
+                        experience of growth, fun, and opportunity. Join us and become part of a
+                        brotherhood that will inspire and empower you to make a difference in the
+                        world!
+                    </p>
+
+                    <div id="DeMolayMembers">
+                        <img src="images/DeMolayMember.jpg" height="180px" width="195px" id="DeMolayMember1" alt="A Member of DeMolay">
+                        <img src="images/DeMolayMember2.jpg" height="180px" width="195px" id="DeMolayMember2" alt="A Member of DeMolay">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="frank-s-land-section">
+        <div class="frank-s-land-card">
+
+            <img id="frank-s-land-section" class="frank-s-land-photo" src="images/DadFrankLand.png" alt="Dad Frank S. Land, DeMolay Internationals Esteemed Founder" width="310px" height="300px">
+
+            <h3> Dad Frank S. Land: Our Founder </h3>
+
+            <div class="frank-land-paragraphs">
+                <p>
+                    Frank S. Land, affectionately known as "Dad" Land, was a visionary leader whose life
+                    was a testament to the power of mentorship and selfless service. Born in Kansas City,
+                    Missouri, in 1890, Land grew up with a strong sense of community and compassion.
+                    His early years as a "Boy Preacher" and his commitment to artistic pursuits at the
+                    Kansas City Art Institute showcased his dedication to enriching the lives of those
+                    around him.
+                </p>
+
+                <p>
+                    This unwavering commitment led to his involvement with the Scottish Rite,
+                    where he began to make a profound impact. In 1919, a chance encounter with a young
+                    man mourning the loss of his father inspired Land to create the Order of DeMolay,
+                    a Masonic youth organization focused on character building, leadership, and fellowship.
+                    What began as a small group of young men quickly grew into a global fraternity that
+                    has positively shaped the lives of millions.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="sponsors-section" id="sponsors-section">
+
+        <h2> Sponsor and Parent Organizations</h2>
+        <div class="freemasonry-div">
+            <h4> Freemasonry </h4>
+            <img class="freemasonry-img" src="/images/FreemasonryLogo1.jpg" width="140px" height="140px">
+
+            <p class="freemasonry-paragraph">
+                Freemasonry is one of the world's oldest fraternal organizations,
+                rooted in traditions of brotherhood, moral and self-improvement.
+                Originating from the stonemason guilds of the Middle Ages, it evolved into a society
+                that uses allegory and symbolism, often centered on the tools of masonry, to impart
+                lessons on ethics, integrity, and the pursuit of knowledge. Freemasonry is not a
+                religion but encourages its members to uphold faith in a higher power and live by
+                principles of charity, truth, and mutual respect.
+            </p>
+        </div>
+
+        <div class="shriners-div">
+            <h4> Shriners Temple </h4>
+            <img class="shriners-rite-img" src="/images/ShrinersLogo.png" width="140px" height="140px">
+
+            <p class="shriners-paragraph">
+                The Ancient Arabic Order of the Nobles of the Mystic Shrine (AAONMS), commonly
+                known as the Shriners, is a philanthropic fraternal organization established
+                in 1872 in NYC. Rooted in Masonic principles, the Shriners combine
+                these values with a more social atmosphere. Known for their distinctive
+                red fezzes and commitment to charity, the Shriners are perhaps best recognized
+                for their work through Shriners Hospitals for Children, a network of facilities
+                providing specialized medical care regardless of a family’s ability to pay.
+            </p>
+        </div>
+
+        <div class="scottish-rite-div">
+            <h4> Scottish Rite </h4>
+            <img class="scottish-rite-img" src="/images/ScottishRiteLogo.jpg" width="140px" height="140px" alt="Scottish Rite Logo">
+
+            <p class="scottish-rite-paragraph">
+                The Scottish Rite is an appendant body of Freemasonry, offering additional
+                degrees that expand upon the foundational teachings of the Blue Lodge.
+                The Rite is organized into two main branches: the Northern and Southern
+                Jurisdictions in the United States, each with unique administrative
+                structures and rituals. Beyond its educational focus, the Scottish Rite is
+                actively involved in charitable work, supporting initiatives such as
+                children's language disorder clinics and scholarships.
+            </p>
+        </div>
+    </section>
+
+    <section class="slideshow-section" id="slideshow">
+        <div class="demolay-slideshow">
+
+            <h1> DeMolay Slideshow </h1>
+
+            <div class="demolay-slideshow-content demolay-slideshow-section" style="max-width:700px">
+                <img class="demolaySlides" src="/images/DeMolayCentennialCourtyardDedication.jpg" style="width:695px;height:300px" alt="DeMolay Centennial Gathering">
+                <img class="demolaySlides" src="/images/DeMolayCountries.png" style="width:695px;height: 300px" alt="Countries with Active DeMolay Chapters">
+                <img class="demolaySlides" src="/images/SeniorDeMolay.jpg" style="width:695px;height:300px" alt="Senior DeMolays">
+                <img class="demolaySlides" src="/images/WorldReligions.jpg" style="width:695px;height:300px" alt="DeMolay Religions">
+            </div>
+        </div>
+    </section>
+
+ <footer class="footer page-footer font-small ">
+     <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Nathaniel Lewis Arevalo Macasaet, 2024|  Terms Of Use  |  Privacy Statement</span>
+        </div>
+     </div>
+  </footer>
+</div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+<script>
+    // Code taken from w3schools.com
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("demolaySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+</script>
+</body>
+</html>

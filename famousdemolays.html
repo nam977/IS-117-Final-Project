@@ -1,0 +1,223 @@
+<!--
+DEVELOPER Nathaniel Lewis Arevalo Macasaet, IS-117-003, Fall 2024
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap Page</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/famousdemolays.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="#"><img src="images/NJDemolayLogo.png" alt="New Jersey DeMolay Logo" width="80" height="80"> </a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home Page</a>
+                    </li>
+
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                           data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            History
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="cardinalvirtues.html"> The 7 Cardinal Virtues</a>
+                            <a class="dropdown-item" href="famousdemolays.html"> Famous DeMolays</a>
+                            <a class="dropdown-item" href="jacquedemolay.html">The Legend of Jacque DeMolay </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <table>
+
+            <colgroup>
+                <col span="3" style="background-color:white">
+                <col style="background-color:white">
+            </colgroup>
+            <tr>
+                <td><img src="images/DisneyLogo.jpg" alt="Disney Logo" class="DisneyLogo logo-section"></td>
+                <td><img src="images/BuzzAldrin.jpg" alt="apollo 11 Logo" class="apollo-11-logo logo-section"></td>
+                <td><img src="images/white-house.jpg" alt="The White House" class="white-house-logo logo-section"></td>
+            </tr>
+        </table>
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+            <!-- Brand -->
+            <!--a class="navbar-brand" href="#"><img src="images/NJDemolayLogo.png" alt="New Jersey DeMolay Logo" width="80" height="80"> </a-->
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+            </div>
+        </nav>
+    </div>
+    <main>
+        <h1 class="famous-demolays-header"> Famous DeMolays </h1>
+
+        <table class="famous-demolays-table1">
+            <colgroup>
+                <col span="3" style="background-color:white">
+                <col style="background-color:white">
+            </colgroup>
+
+            <tr>
+                <th class="famous-demolays-table1"> Walt Disney </th>
+                <th class="famous-demolays-table1"> Bill Clinton </th>
+                <th class="famous-demolays-table1"> Neil Armstrong </th>
+            </tr>
+
+            <tr>
+                <td> <img class="famous-demolays-img" src="/images/WaltDisney.jpg" width="400px" height="400px" alt="Walt Disney"/></td>
+                <td> <img class="famous-demolays-img" src="/images/BillClinton.jpg" width="400px" height="400px" alt="Bill Clinton"/></td>
+                <td> <img class="famous-demolays-img" src="/images/armstrong.jpg" width="400px" height="400px" alt="Neil Armstrong"/></td>
+            </tr>
+
+            <tr>
+                <td class="famous-demolays-table1">
+                    <p>
+                        Walt Disney (1901–1966) was an American entrepreneur, animator, and filmmaker
+                        who revolutionized the entertainment industry. He co-founded The Walt Disney
+                        Company, which became a global leader in animated films, theme parks, and
+                        family entertainment. Known for his creativity and innovation, Disney
+                        introduced iconic characters like Mickey Mouse and produced beloved classics
+                        such as Snow White and the Seven Dwarfs, the first full-length animated
+                        feature film. He also pioneered the concept of theme parks with Disneyland,
+                        creating immersive experiences for visitors of all ages. Disney's legacy
+                        continues to influence the entertainment world through his company's ongoing
+                        success.
+                    </p>
+                </td>
+
+                <td class="famous-demolays-table1">
+                    <p>
+
+                        Bill Clinton, the 42nd President of the United States, served from 1993 to 2001.
+                        A member of the Democratic Party, he was the first president from the Baby Boomer
+                        generation. Clinton's administration was marked by strong economic growth,
+                        including a balanced federal budget and budget surpluses. Domestically, he signed
+                        significant legislation such as the Family and Medical Leave Act and welfare
+                        reform while promoting policies aimed at expanding global trade, including NAFTA.
+                        Clinton also played a prominent role in international diplomacy, including efforts
+                        to broker peace in the Middle East and in Northern Ireland. Before his presidency,
+                        he served as the Governor of Arkansas, where he focused on education reform and
+                        economic development
+                    </p>
+                </td>
+
+                <td class="famous-demolays-table1">
+                    <p>
+                        Neil Armstrong (1930–2012) was an American astronaut, aerospace engineer, and test
+                        pilot best known as the first human to set foot on the Moon. On July 20, 1969, he
+                        commanded NASA's Apollo 11 mission, delivering his iconic phrase, "That's one small
+                        step for [a] man, one giant leap for mankind." Armstrong's achievement marked a
+                        historic milestone in space exploration. Before joining NASA, he served as a naval
+                        aviator during the Korean War and later became a test pilot, flying experimental
+                        aircraft like the X-15. Following his astronaut career, Armstrong worked as a
+                        professor of aerospace engineering and remained a strong advocate for science and
+                        space exploration.
+                    </p>
+                </td>
+            </tr>
+        </table>
+
+        <table class="famous-demolays-table2">
+            <colgroup>
+                <col span="2" style="background-color:white">
+                <col style="background-color:white">
+            </colgroup>
+
+            <tr>
+                <th class="famous-demolays-table2"> Mel Blanc </th>
+                <th class="famous-demolays-table2"> Josh Steinbeck </th>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="/images/MelBlanc.jpg" alt="Mel Blanc" class="mel-blanc-thumbnail" width="750px" height="400px"/>
+                </td>
+
+                <td>
+                    <img src="/images/JohnSteinbeck.jpg" alt="John Steinbeck" class="john-steinbeck-thumbnail" width="750px" height="400px"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p>
+                        Mel Blanc (1908–1989) was a legendary American voice actor, comedian, and radio personality,
+                        widely celebrated as "The Man of a Thousand Voices." He is best known for voicing many iconic
+                        Warner Bros. cartoon characters, including Bugs Bunny, Daffy Duck, Porky Pig, Tweety Bird, and
+                        Yosemite Sam, among others. Blanc's versatility and talent revolutionized the art of voice
+                        acting, making his characters enduring symbols of animation. Beyond Warner Bros., he voiced
+                        Barney Rubble in The Flintstones and Mr. Spacely in The Jetsons. His groundbreaking career
+                        spanned decades, and his unparalleled contribution to animation earned him recognition as one
+                        of the greatest voice actors of all time.
+                    </p>
+                </td>
+
+                <td>
+                    <p>
+                        John Steinbeck (1902–1968) was an American author and Nobel laureate renowned for his powerful
+                        and socially conscious novels. His works often explored themes of human struggle, social justice,
+                        and the resilience of ordinary people during challenging times. Steinbeck's most famous works
+                        include The Grapes of Wrath, which chronicles the hardships of migrant workers during the Great
+                        Depression, Of Mice and Men, a poignant tale of friendship and dreams, and East of Eden, an epic
+                        family saga. His storytelling combined vivid descriptions of rural America with deep empathy for
+                        his characters, cementing his legacy as one of the most influential writers of the 20th century.
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </main>
+</div>
+
+<footer class="footer page-footer font-small ">
+    <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Nathaniel Lewis Arevalo Macasaet, 2024|  Terms Of Use  |  Privacy Statement</span>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+</body>
+</html>

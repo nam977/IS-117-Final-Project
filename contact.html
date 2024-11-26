@@ -1,0 +1,232 @@
+<!--
+DEVELOPER Nathaniel Lewis Arevalo Macasaet, IS-117-003, Fall 2024
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap Page</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
+
+</head>
+<body>
+<style>
+</style>
+
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="#"><img src="images/NJDemolayLogo.png" alt="New Jersey DeMolay Logo" width="360" height="504" class="DeMolayMenuLogo"> </a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home Page</a>
+                    </li>
+
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                           data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            History
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="cardinalvirtues.html"> The 7 Cardinal Virtues</a>
+                            <a class="dropdown-item" href="famousdemolays.html"> Famous DeMolays</a>
+                            <a class="dropdown-item" href="jacquedemolay.html">The Legend of Jacque DeMolay </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="DeMolayLogo">
+            <img src="images/DeMolayLogo.jpg" alt="DeMolay Crown Logo" class="DeMolayLogo">
+        </div>
+        <div class="container">
+            <h1> Want to become a DeMolay? </h1>
+
+            <h1> Enter your Contact Info Below: </h1>
+
+          <div class="row">
+            <form action="">
+                <div class="form-group">
+                    <label for="firstname">First Name:</label>
+                    <input type="text" class="form-control" id="firstname"
+                           placeholder="First name" name="firstname">
+                </div>
+
+                <div class="form-group">
+                    <label for="firstname">Middle Name:</label>
+                    <input type="text" class="form-control" id="middlename"
+                           placeholder="Middle name" name="middlename">
+                </div>
+                <div class="form-group">
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" class="form-control" id="lastname"
+                           placeholder="Last name" name="lastname">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email"
+                           placeholder="Enter email" name="email">
+                </div>
+
+                <div class="form-group">
+                    <label>Phone Number:</label>
+                    <input type="tel" class="form-control" id="telephonenumber" placeholder="Enter Phone Number"
+                           name="email" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Address:</label>
+                    <input type="text" class="form-control" id="address"
+                           placeholder="Address" name="address" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Street:</label>
+                    <input type="text" class="form-control" placeholder="Street" name="street" required>
+                </div>
+
+                <div class="form-group">
+                    <label>City/Town:</label>
+                    <input type="text" class="form-control" id="city_town" placeholder="Street" name="street" required>
+                </div>
+
+
+                <div class="col-25">
+                    <label for="country">Country</label>
+                </div>
+                <div class="col-75">
+                    <select id="country" name="country">
+                        <option value="usa">USA</option>
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="phillipines">Philippines</option>
+                        <option value="japan">Japan</option>
+                        <option value="argentina">Argentina</option>
+                        <option value="france">France</option>
+                        <option value="germany">Germany</option>
+
+                    </select>
+                </div>
+
+                <div>
+                    <h2 class="god-header">Do you believe in a God?</h2>
+                    <div class="yesNoOptions">
+                        <label>
+                            Yes
+                            <input class="w3-radio" type="radio" name="Yes" value="Yes" checked/>
+                        </label>
+
+                        <label>
+                            No
+                            <input class="w3-radio" type="radio" name="No" value="No"/>
+                        </label>
+                    </div>
+
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+
+            <h2 class="table-h2"> DeMolay Chapters in New Jersey</h2>
+
+            <table class="chapter-table">
+                <tr>
+                    <th class="chapter-name"> Chapter Name: </th>
+                    <th class="lodge-name"> Lodge Name: </th>
+                    <th class="town"> Town: </th>
+                    <th class="county"> County: </th>
+                    <th class="address"> Address: </th>
+                    <th class="zip-code"> Zip Code</th>
+                </tr>
+
+                <tr>
+                    <td class="chapter-name"> Clifton Chapter</td>
+                    <td class="lodge-name"> Clifton Lodge #203</td>
+                    <td class="town"> Clifton</td>
+                    <td class="county"> Passaic County</td>
+                    <td class="address"> 1496 Van Houten Ave</td>
+                    <td class="zip-code"> 07013 </td>
+                </tr>
+
+                <tr>
+                    <td class="chapter-name"> Ethan Allen DeMolay Chapter</td>
+                    <td class="lodge-name"> Fidelity Lodge F&AM #113</td>
+                    <td class="town"> Ridgewood </td>
+                    <td class="county"> Bergen County </td>
+                    <td class="address"> 99 S Maple Ave </td>
+                    <td class="zip-code"> 07450 </td>
+                </tr>
+
+                <tr>
+                    <td class="chapter-name"> Union Chapter</td>
+                    <td class="lodge-name"> Atlas Pythagoras Lodge #10</td>
+                    <td class="town"> Westfield </td>
+                    <td class="county"> Union County </td>
+                    <td class="address"> 1011 Central Ave</td>
+                    <td class="zip-code"> 07090 </td>
+                </tr>
+
+                <tr>
+                    <td class="chapter-name"> Phoenix Chapter</td>
+                    <td class="lodge-name"> Genesis Lodge #88 </td>
+                    <td class="town"> Pompton Lakes</td>
+                    <td class="county"> Passaic County</td>
+                    <td class="address"> 15 Hamburg Turnpike</td>
+                    <td class="zip-code"> 07442</td>
+                </tr>
+
+                <tr>
+                    <td class="chapter-name last-row"> Jersey Shore Chapter</td>
+                    <td class="lodge-name last-row"> Mariners Lodge #150 </td>
+                    <td class="town last-row"> Barnegat </td>
+                    <td class="county last-row"> Ocean County</td>
+                    <td class="address last-row"> 692 E. Bay Avenue </td>
+                    <td class="zip-code last-row"> 08005</td>
+                </tr>
+            </table>
+</div>
+        </div>
+ <footer class="footer page-footer font-small ">
+     <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Nathaniel Lewis Arevalo Macasaet, 2024 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+     </div>
+  </footer>
+</div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>

@@ -1,0 +1,163 @@
+/*
+DEVELOPER Nathaniel Lewis Arevalo Macasaet, IS-117-003, Fall 2024
+*/
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+
+.DeMolayLogo{
+    /*
+    block-size: 290px;
+    min-height: 100%;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+    float: left;*/
+    padding: 0;
+    width: 100%;
+    block-size: 430px;
+}
+
+h1{
+    padding: 45px;
+    font-size: 45px;
+    width: 900px;
+    background-color: lightslategray;
+    margin: 20px;
+    opacity: 75%;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+#early-life{
+    width: 100%;
+    padding: 10px;
+}
+
+section.thirteenthCentury{
+    background-image: url("/images/thirteenthCenturyPilgrims.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 140%;
+}
+
+div.early-life-paragraph{
+    padding: 60px;
+    background-color: #6c757d;
+    width: 800px;
+    margin: 100px;
+    color: white;
+    opacity: 75%;
+}
+
+
+
+
+div.grand-master-section{
+    width: 600px;
+    padding: 50px;
+    background-color: #6c757d;
+    background-position: left;
+    max-width: 140%;
+    margin: auto 3%;
+    height: 100%;
+    opacity: 80%;
+    color: white;
+}
+
+.demolayInKnightArmor{
+    background-image: url("/images/jacque-demolay-as-knight-templar.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position-y: top;
+    background-position-x: left;
+}
+
+.grand-master-france{
+    width: 600px;
+    font-size: 20px;
+    padding: 100px;
+    float: right;
+    background-color: #6c757d;
+    margin: 50px;
+    opacity: 74%;
+    color: white;
+}
+
+.demolay-france{
+    background-image: url("/images/medieval-france.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    width: 100%;
+}
+
+.grand-master-arrest{
+    width: 600px;
+    font-size: 20px;
+    padding: 100px;
+    margin: 200px;
+    float: right;
+    background-color: #6c757d;
+    color: white;
+    opacity: 75%;
+}
+
+.demolay-arrest-templar{
+    background-image: url("/images/medievalDungeon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    width: 100%;
+}
+
+.grand-master-sacrifice{
+    margin: 100px;
+    padding: 50px;
+    background-color: #6c757d;
+    opacity: 67%;
+    color: white;
+}
+
+.demolay-death-and-sacrifice{
+    background-image: url("/images/execution-of-jacque-demolay.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    width: 100%;
+}
+
+.grand-master-legacy{
+    margin: 100px;
+    padding: 50px;
+    background-color: #6c757d;
+    opacity: 67%;
+    color: white;
+    font-size: 25px;
+}
+
+.demolay-legacy{
+    background-image: url("/images/demolay-freemasonry.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    width: 100%;
+    background-position: center;
+
+}
+

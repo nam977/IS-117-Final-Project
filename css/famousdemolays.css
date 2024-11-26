@@ -1,0 +1,187 @@
+/*
+DEVELOPER Nathaniel Lewis Arevalo Macasaet, IS-117-003, Fall 2024
+*/
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+
+table, tr, th, td{
+    border: 1px solid black;
+}
+
+body{
+    background-image: url("/images/USFlag.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+td{
+    background-color: aliceblue;
+}
+
+p{
+    padding: 20px;
+}
+
+h1{
+    width: 500px;
+    background-color: yellow;
+    opacity: 65%;
+    padding: 20px;
+}
+
+.famous-demolays-header{
+    text-align: center;
+    margin: 100px auto;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+
+@media only screen and (max-width: 1536px){
+    img.logo-section{
+
+        margin: auto -3%;
+        max-width: 140%;
+        height: 300px;
+        width: 520px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 1245px){
+    img.logo-section{
+        /*
+        margin: auto -3%;
+        max-width: 140%;
+        height: 300px;*/
+        width: 100px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 1244px){
+    img.logo-section{
+        /*
+        margin: auto -3%;
+        max-width: 140%;
+        height: 300px;*/
+        width: 425px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 1169px){
+    img.logo-section{
+        /*
+        margin: auto -3%;
+        max-width: 140%;
+        height: 300px;*/
+        width: 395px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 1120px){
+    img.logo-section{
+        /*
+        margin: auto -3%;
+        max-width: 140%;
+        height: 300px;*/
+        width: 375px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 1102px){
+    img.logo-section{
+        /*
+        margin: auto -3%;
+        max-width: 140%;
+        height: 300px;*/
+        width: 350px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    img.logo-section{
+        /*
+        margin: auto -3%;
+        max-width: 140%;
+        height: 300px;*/
+        width: 340px;
+        height: 200px;
+    }
+}
+
+table{
+    opacity: 65%;
+}
+
+@media only screen and (max-width: 1295px){
+    .famous-demolays-img{
+        width: 375px;
+        height:400px;
+    }
+}
+
+@media only screen and (max-width: 1138px){
+    .famous-demolays-img{
+        width: 345px;
+        height:400px;
+    }
+}
+
+@media only screen and (max-width: 1048px){
+    .famous-demolays-img{
+        width: 320px;
+        height:400px;
+    }
+}
+
+@media only screen and (max-width: 1600px){
+    img.mel-blanc-thumbnail{
+        width: 500px
+    }
+
+    img.john-steinbeck-thumbnail{
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 1600px){
+    img.mel-blanc-thumbnail{
+        width: 500px
+    }
+
+    img.john-steinbeck-thumbnail{
+        width: 430px;
+    }
+}
+
+img.mel-blanc-thumbnail{
+    background-color: aliceblue;
+    padding: 25px;
+}
+
+img.john-steinbeck-thumbnail{
+    background-color: aliceblue;
+    padding: 25px;
+}
+
