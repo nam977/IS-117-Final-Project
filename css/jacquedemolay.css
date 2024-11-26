@@ -49,7 +49,7 @@ html, body{
 }
 
 section.thirteenthCentury{
-    background-image: url("/images/thirteenthCenturyPilgrims.jpg");
+    background-image: url("images/thirteenthCenturyPilgrims.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 140%;
@@ -80,7 +80,7 @@ div.grand-master-section{
 }
 
 .demolayInKnightArmor{
-    background-image: url("/images/jacque-demolay-as-knight-templar.jpg");
+    background-image: url("images/jacque-demolay-as-knight-templar.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -100,7 +100,7 @@ div.grand-master-section{
 }
 
 .demolay-france{
-    background-image: url("/images/medieval-france.jpg");
+    background-image: url("images/medieval-france.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     float: right;
@@ -119,7 +119,7 @@ div.grand-master-section{
 }
 
 .demolay-arrest-templar{
-    background-image: url("/images/medievalDungeon.jpg");
+    background-image: url("images/medievalDungeon.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     float: right;
@@ -135,7 +135,7 @@ div.grand-master-section{
 }
 
 .demolay-death-and-sacrifice{
-    background-image: url("/images/execution-of-jacque-demolay.jpg");
+    background-image: url("images/execution-of-jacque-demolay.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     float: right;
@@ -152,7 +152,7 @@ div.grand-master-section{
 }
 
 .demolay-legacy{
-    background-image: url("/images/demolay-freemasonry.jpg");
+    background-image: url("images/demolay-freemasonry.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     float: right;
