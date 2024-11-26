@@ -89,7 +89,7 @@ html, body{
 }
 
 .frank-s-land-section{
-    background-image: url("images/KansasCity.jpg");
+    background-image: url("../images/KansasCity.jpg");
     width: 100%;
     background-size: cover;
 }
@@ -103,7 +103,7 @@ html, body{
 }
 
 section.sponsors-section{
-    background-image: url("images/ActiveDeMolay.jpg");
+    background-image: url("../images/ActiveDeMolay.jpg");
     background-size: cover;
     background-position: center;
     padding: 1px;
