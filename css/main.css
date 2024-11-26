@@ -89,7 +89,7 @@ html, body{
 }
 
 .frank-s-land-section{
-    background-image: url("css/images/KansasCity.jpg");
+    background-image: url("../images/KansasCity.jpg");
     width: 100%;
     background-size: cover;
 }
